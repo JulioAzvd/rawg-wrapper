@@ -1,5 +1,5 @@
 {
-  "name": "rawg-api-wrapper",
+  "name": "rawg-wrapper",
   "version": "1.0.1",
   "description": "A simple wrapper for the RAWG API",
   "main": "dist/index.js",

@@ -1,6 +1,6 @@
-# 🎮 RAWG API Wrapper for TypeScript
+# 🎮 RAWG Wrapper for TypeScript
 
-Welcome to **RAWG API Wrapper**! 🚀 This is a powerful and easy-to-use TypeScript wrapper for the RAWG API, allowing you to fetch gaming-related data like games, developers, platforms, and much more! 🎯
+Welcome to **RAWG Wrapper**! 🚀 This is a powerful and easy-to-use TypeScript wrapper for the RAWG API, allowing you to fetch gaming-related data like games, developers, platforms, and much more! 🎯
 
 ---
 
@@ -20,7 +20,7 @@ Welcome to **RAWG API Wrapper**! 🚀 This is a powerful and easy-to-use TypeScr
 Install the wrapper using npm:
 
 ```sh
-npm install rawg-api-wrapper
+npm install rawg-wrapper
 ```
 
 ---
