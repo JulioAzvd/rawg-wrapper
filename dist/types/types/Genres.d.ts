@@ -3,7 +3,7 @@
  *
  * 🇺🇸 Represents a game belonging to a specific genre.
  */
-interface GamesOnThisGenre {
+declare interface GamesOnThisGenre {
     /**
      * 🇧🇷 ID único do jogo.
      *
@@ -34,7 +34,7 @@ interface GamesOnThisGenre {
  *
  * 🇺🇸 Represents a game genre.
  */
-interface GenresArray {
+declare interface GenresArray {
     /**
      * 🇧🇷 ID único do gênero.
      *
@@ -77,7 +77,7 @@ interface GenresArray {
  *
  * 🇺🇸 Represents the API response when retrieving a list of genres.
  */
-interface GenresList {
+declare interface GenresList {
     /**
      * 🇧🇷 Número total de gêneros disponíveis.
      *
@@ -108,7 +108,7 @@ interface GenresList {
  *
  * 🇺🇸 Represents the details of a specific genre.
  */
-interface GenreDetailsList {
+declare interface GenreDetailsList {
     /**
      * 🇧🇷 ID único do gênero.
      *

@@ -3,7 +3,7 @@
  *
  * 🇺🇸 Represents a game available on a specific platform.
  */
-interface Platform_GamesArrayInterface {
+declare interface Platform_GamesArrayInterface {
     /**
      * 🇧🇷 ID único do jogo.
      *
@@ -34,7 +34,7 @@ interface Platform_GamesArrayInterface {
  *
  * 🇺🇸 Represents a gaming platform.
  */
-interface PlatformArray {
+declare interface PlatformArray {
     /**
      * 🇧🇷 ID único da plataforma.
      *
@@ -95,7 +95,7 @@ interface PlatformArray {
  *
  * 🇺🇸 Represents the API response when retrieving a list of platforms.
  */
-interface PlatformList {
+declare interface PlatformList {
     /**
      * 🇧🇷 Número total de plataformas disponíveis.
      *
@@ -126,7 +126,7 @@ interface PlatformList {
  *
  * 🇺🇸 Represents a group of platforms belonging to a parent platform.
  */
-interface PlatformParentArray {
+declare interface PlatformParentArray {
     /**
      * 🇧🇷 ID único da plataforma-mãe.
      *
@@ -157,7 +157,7 @@ interface PlatformParentArray {
  *
  * 🇺🇸 Represents the API response when retrieving a list of parent platforms.
  */
-interface PlatformParentList {
+declare interface PlatformParentList {
     /**
      * 🇧🇷 Número total de plataformas-mãe disponíveis.
      *
@@ -188,7 +188,7 @@ interface PlatformParentList {
  *
  * 🇺🇸 Represents the details of a specific platform.
  */
-interface PlatformDetailsList {
+declare interface PlatformDetailsList {
     /**
      * 🇧🇷 ID único da plataforma.
      *

@@ -1,5 +1,5 @@
 import * as RawgTypes from "./types";
-interface GameQueryParams {
+declare interface GameQueryParams {
     /**
      * 🇧🇷 Número da página dentro do conjunto paginado de resultados.
      *

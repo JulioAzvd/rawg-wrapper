@@ -3,7 +3,7 @@
  *
  * 🇺🇸 Represents a game associated with a store.
  */
-interface Stores_GamesArrayInterface {
+declare interface Stores_GamesArrayInterface {
     /**
      * 🇧🇷 ID único do jogo.
      *
@@ -34,7 +34,7 @@ interface Stores_GamesArrayInterface {
  *
  * 🇺🇸 Represents a store where games can be purchased.
  */
-interface StoresArray {
+declare interface StoresArray {
     /**
      * 🇧🇷 ID único da loja.
      *
@@ -83,7 +83,7 @@ interface StoresArray {
  *
  * 🇺🇸 Represents the API response when retrieving a list of stores.
  */
-interface StoresList {
+declare interface StoresList {
     /**
      * 🇧🇷 Número total de lojas disponíveis.
      *
@@ -114,7 +114,7 @@ interface StoresList {
  *
  * 🇺🇸 Represents the details of a specific store.
  */
-interface StoreDetailsList {
+declare interface StoreDetailsList {
     /**
      * 🇧🇷 ID único da loja.
      *

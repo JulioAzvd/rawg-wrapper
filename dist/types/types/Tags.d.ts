@@ -3,7 +3,7 @@
  *
  * 🇺🇸 Represents a game associated with a tag.
  */
-interface Tags_GamesArrayInterface {
+declare interface Tags_GamesArrayInterface {
     /**
      * 🇧🇷 ID único do jogo.
      *
@@ -34,7 +34,7 @@ interface Tags_GamesArrayInterface {
  *
  * 🇺🇸 Represents a tag used to categorize games.
  */
-interface TagsArrayInterface {
+declare interface TagsArrayInterface {
     /**
      * 🇧🇷 ID único da tag.
      *
@@ -83,7 +83,7 @@ interface TagsArrayInterface {
  *
  * 🇺🇸 Represents the API response when retrieving a list of tags.
  */
-interface TagsList {
+declare interface TagsList {
     /**
      * 🇧🇷 Número total de tags disponíveis.
      *
@@ -114,7 +114,7 @@ interface TagsList {
  *
  * 🇺🇸 Represents the details of a specific tag.
  */
-interface TagsDetailsList {
+declare interface TagsDetailsList {
     /**
      * 🇧🇷 ID único da tag.
      *

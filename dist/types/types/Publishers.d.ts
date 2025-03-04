@@ -3,7 +3,7 @@
  *
  * 🇺🇸 Represents a game associated with a publisher.
  */
-interface Publishers_GamesArray {
+declare interface Publishers_GamesArray {
     /**
      * 🇧🇷 ID único do jogo.
      *
@@ -34,7 +34,7 @@ interface Publishers_GamesArray {
  *
  * 🇺🇸 Represents a game publisher.
  */
-interface PublisherArrayInterface {
+declare interface PublisherArrayInterface {
     /**
      * 🇧🇷 ID único da publicadora.
      *
@@ -77,7 +77,7 @@ interface PublisherArrayInterface {
  *
  * 🇺🇸 Represents the API response when retrieving a list of publishers.
  */
-interface PublishersList {
+declare interface PublishersList {
     /**
      * 🇧🇷 Número total de publicadoras disponíveis.
      *
@@ -108,7 +108,7 @@ interface PublishersList {
  *
  * 🇺🇸 Represents the details of a specific publisher.
  */
-interface PublisherDetailsList {
+declare interface PublisherDetailsList {
     /**
      * 🇧🇷 ID único da publicadora.
      *

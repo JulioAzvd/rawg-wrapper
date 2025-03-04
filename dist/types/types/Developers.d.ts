@@ -3,7 +3,7 @@
  *
  * 🇺🇸 Represents a game developed by a specific studio.
  */
-interface DevelopersGamesArrayList {
+declare interface DevelopersGamesArrayList {
     /**
      * 🇧🇷 ID único do jogo.
      *
@@ -34,7 +34,7 @@ interface DevelopersGamesArrayList {
  *
  * 🇺🇸 Represents a game developer and the most popular titles developed by them.
  */
-interface DevelopersListResults {
+declare interface DevelopersListResults {
     /**
      * 🇧🇷 ID único do desenvolvedor.
      *
@@ -77,7 +77,7 @@ interface DevelopersListResults {
  *
  * 🇺🇸 Represents the API response when retrieving a list of developers.
  */
-interface DevelopersList {
+declare interface DevelopersList {
     /**
      * 🇧🇷 Número total de desenvolvedores disponíveis.
      *
@@ -108,7 +108,7 @@ interface DevelopersList {
  *
  * 🇺🇸 Represents the details of a specific developer.
  */
-interface DeveloperDetails {
+declare interface DeveloperDetails {
     /**
      * 🇧🇷 ID único do desenvolvedor.
      *

@@ -4,7 +4,7 @@ import { CreatorRoles } from "./Creators.js";
  *
  * 🇺🇸 Represents a short screenshot of a game.
  */
-interface GameShortScreenshots {
+declare interface GameShortScreenshots {
     /**
      * 🇧🇷 Identificador único da captura de tela.
      *
@@ -23,7 +23,7 @@ interface GameShortScreenshots {
  *
  * 🇺🇸 Represents the ESRB (Entertainment Software Rating Board) rating of a game.
  */
-interface ESRBRating {
+declare interface ESRBRating {
     /**
      * 🇧🇷 Identificador único da classificação ESRB.
      *
@@ -48,7 +48,7 @@ interface ESRBRating {
  *
  * 🇺🇸 Represents a tag associated with a game.
  */
-interface GameTags {
+declare interface GameTags {
     /**
      * 🇧🇷 Identificador único da tag.
      *
@@ -91,7 +91,7 @@ interface GameTags {
  *
  * 🇺🇸 Represents a store where the game is available.
  */
-interface GameStores {
+declare interface GameStores {
     /**
      * 🇧🇷 Identificador único da loja.
      *
@@ -134,7 +134,7 @@ interface GameStores {
  *
  * 🇺🇸 Represents a game genre.
  */
-interface GameGenres {
+declare interface GameGenres {
     /**
      * 🇧🇷 Identificador único do gênero.
      *
@@ -171,7 +171,7 @@ interface GameGenres {
  *
  * 🇺🇸 Represents the parent platform of a game, like PC, PlayStation, etc.
  */
-interface GameParentPlatform {
+declare interface GameParentPlatform {
     /**
      * 🇧🇷 Informações sobre a plataforma associada ao jogo.
      *
@@ -203,7 +203,7 @@ interface GameParentPlatform {
  *
  * 🇺🇸 Represents the minimum and recommended requirements of a game.
  */
-interface GameRequirements {
+declare interface GameRequirements {
     /**
      * 🇧🇷 Requisitos mínimos necessários para rodar o jogo.
      *
@@ -222,7 +222,7 @@ interface GameRequirements {
  *
  * 🇺🇸 Represents a platform for a game, like PC, PlayStation, etc.
  */
-interface GamePlatform {
+declare interface GamePlatform {
     /**
      * 🇧🇷 Identificador único da plataforma.
      *
@@ -277,7 +277,7 @@ interface GamePlatform {
  *
  * 🇺🇸 Represents a game platform with additional information such as requirements and release date.
  */
-interface GamePlatformsList {
+declare interface GamePlatformsList {
     /**
      * 🇧🇷 Plataforma associada ao jogo.
      *
@@ -308,7 +308,7 @@ interface GamePlatformsList {
  *
  * 🇺🇸 Represents a video clip related to the game.
  */
-interface GameClip {
+declare interface GameClip {
     /**
      * 🇧🇷 Link para o clipe de vídeo.
      *
@@ -343,7 +343,7 @@ interface GameClip {
  *
  * 🇺🇸 Represents user game information, such as whether they own the game or not.
  */
-interface Game_UserGame {
+declare interface Game_UserGame {
     /**
      * 🇧🇷 Identificador único do jogo.
      *
@@ -362,7 +362,7 @@ interface Game_UserGame {
  *
  * 🇺🇸 Represents the status of a game's addition to the catalog, including games the user hasn't played, has beaten, or is currently playing.
  */
-interface GameAddedByStatus {
+declare interface GameAddedByStatus {
     /**
      * 🇧🇷 Número de jogos que o usuário ainda não jogou.
      *
@@ -405,7 +405,7 @@ interface GameAddedByStatus {
  *
  * 🇺🇸 Represents the rating of a game, such as vote count and rating percentage.
  */
-interface GameRatings {
+declare interface GameRatings {
     /**
      * 🇧🇷 Identificador único da classificação.
      *
@@ -436,7 +436,7 @@ interface GameRatings {
  *
  * 🇺🇸 Represents a game in the list of games returned by the API.
  */
-interface GamesListResults {
+declare interface GamesListResults {
     /**
      * 🇧🇷 Identificador único do jogo.
      *
@@ -617,7 +617,7 @@ interface GamesListResults {
  *
  * 🇺🇸 Represents a list of games returned by the API.
  */
-interface GamesList {
+declare interface GamesList {
     /**
      * 🇧🇷 Número total de jogos na lista.
      *
@@ -648,7 +648,7 @@ interface GamesList {
  *
  * 🇺🇸 Represents the details of a game added to the list, including data like rating, platforms, and others.
  */
-interface AdditionsListResults {
+declare interface AdditionsListResults {
     /**
      * 🇧🇷 Identificador único do jogo.
      *
@@ -829,7 +829,7 @@ interface AdditionsListResults {
  *
  * 🇺🇸 Represents a list of added games, returned by the API.
  */
-interface AdditionsList {
+declare interface AdditionsList {
     /**
      * 🇧🇷 Número total de jogos na lista.
      *
@@ -860,7 +860,7 @@ interface AdditionsList {
  *
  * 🇺🇸 Represents a game development team, including the games produced and the roles of the creators.
  */
-interface GameDevelopmentTeamArray {
+declare interface GameDevelopmentTeamArray {
     /**
      * 🇧🇷 Identificador único da equipe de desenvolvimento.
      *
@@ -915,7 +915,7 @@ interface GameDevelopmentTeamArray {
  *
  * 🇺🇸 Represents a list of game development teams, returned by the API.
  */
-interface GameDevelopmentTeamList {
+declare interface GameDevelopmentTeamList {
     /**
      * 🇧🇷 Número total de equipes de desenvolvimento na lista.
      *
@@ -946,7 +946,7 @@ interface GameDevelopmentTeamList {
  *
  * 🇺🇸 Represents a list of games that are part of the same game series.
  */
-interface GamesSameSeriesList {
+declare interface GamesSameSeriesList {
     /**
      * 🇧🇷 Número total de jogos na lista.
      *
@@ -977,7 +977,7 @@ interface GamesSameSeriesList {
  *
  * 🇺🇸 Represents a list of parent games for DLCs (Downloadable Content) and editions.
  */
-interface GameParentsForDlcAndEditionsList {
+declare interface GameParentsForDlcAndEditionsList {
     /**
      * 🇧🇷 Número total de jogos pais na lista.
      *
@@ -1008,7 +1008,7 @@ interface GameParentsForDlcAndEditionsList {
  *
  * 🇺🇸 Represents a screenshot of a game.
  */
-interface GameScreenshotsArray {
+declare interface GameScreenshotsArray {
     /**
      * 🇧🇷 Identificador único da captura de tela.
      *
@@ -1045,7 +1045,7 @@ interface GameScreenshotsArray {
  *
  * 🇺🇸 Represents a list of game screenshots.
  */
-interface GameScreenshotsList {
+declare interface GameScreenshotsList {
     /**
      * 🇧🇷 Número total de capturas de tela na lista.
      *
@@ -1076,7 +1076,7 @@ interface GameScreenshotsList {
  *
  * 🇺🇸 Represents a game link to a specific store.
  */
-interface GameStoreLinksArray {
+declare interface GameStoreLinksArray {
     /**
      * 🇧🇷 Identificador único do link.
      *
@@ -1107,7 +1107,7 @@ interface GameStoreLinksArray {
  *
  * 🇺🇸 Represents a list of game links to specific stores.
  */
-interface GameStoreLinksList {
+declare interface GameStoreLinksList {
     /**
      * 🇧🇷 Número total de links de jogos para lojas na lista.
      *
@@ -1138,7 +1138,7 @@ interface GameStoreLinksList {
  *
  * 🇺🇸 Represents the details of a game's store.
  */
-interface GameDetails_Store {
+declare interface GameDetails_Store {
     /**
      * 🇧🇷 Identificador único do link de loja.
      *
@@ -1200,7 +1200,7 @@ interface GameDetails_Store {
  *
  * 🇺🇸 Represents a game publisher.
  */
-interface GamePublishers {
+declare interface GamePublishers {
     /**
      * 🇧🇷 Identificador único do publisher.
      *
@@ -1237,7 +1237,7 @@ interface GamePublishers {
  *
  * 🇺🇸 Represents a game developer.
  */
-interface GameDevelopers {
+declare interface GameDevelopers {
     /**
      * 🇧🇷 Identificador único do desenvolvedor.
      *
@@ -1274,7 +1274,7 @@ interface GameDevelopers {
  *
  * 🇺🇸 Represents the Metacritic score of a game.
  */
-interface GameMetacriticPlatforms {
+declare interface GameMetacriticPlatforms {
     /**
      * 🇧🇷 Pontuação do jogo na Metacritic.
      *
@@ -1293,7 +1293,7 @@ interface GameMetacriticPlatforms {
  *
  * 🇺🇸 Represents the full details of a specific game.
  */
-interface GameDetailsList {
+declare interface GameDetailsList {
     /**
      * 🇧🇷 Identificador único do jogo.
      *
@@ -1624,7 +1624,7 @@ interface GameDetailsList {
  *
  * 🇺🇸 Represents the list of achievements for a game.
  */
-interface GameAchievementList {
+declare interface GameAchievementList {
     /**
      * 🇧🇷 Identificador único da conquista.
      *
@@ -1661,7 +1661,7 @@ interface GameAchievementList {
  *
  * 🇺🇸 Represents the trailers for a game.
  */
-interface GameTrailerArray {
+declare interface GameTrailerArray {
     /**
      * 🇧🇷 Identificador único do trailer.
      *
@@ -1717,7 +1717,7 @@ interface GameTrailerArray {
  *
  * 🇺🇸 Represents the list of trailers for a game.
  */
-interface GameTrailerList {
+declare interface GameTrailerList {
     /**
      * 🇧🇷 Quantidade de trailers na lista.
      *
@@ -1748,7 +1748,7 @@ interface GameTrailerList {
  *
  * 🇺🇸 Represents a recent post about the game on Reddit.
  */
-interface GameRecentPostOnRedditArray {
+declare interface GameRecentPostOnRedditArray {
     /**
      * 🇧🇷 Identificador único do post.
      *
@@ -1803,7 +1803,7 @@ interface GameRecentPostOnRedditArray {
  *
  * 🇺🇸 Represents a list of recent posts about the game on Reddit.
  */
-interface GameRecentPostOnRedditList {
+declare interface GameRecentPostOnRedditList {
     /**
      * 🇧🇷 Quantidade de posts na lista.
      *
@@ -1834,13 +1834,13 @@ interface GameRecentPostOnRedditList {
  *
  * 🇺🇸 Type that represents a list of games similar to the current game, using the structure of `GameDetailsList`.
  */
-type GameSimilarGamesList = GameDetailsList;
+declare type GameSimilarGamesList = GameDetailsList;
 /**
  * 🇧🇷 Tipo que representa um stream de jogo no Twitch, com informações detalhadas como título, descrição, contagem de visualizações, entre outras.
  *
  * 🇺🇸 Type that represents a game stream on Twitch, with detailed information such as title, description, view count, and more.
  */
-interface GameTwitchStreamsList {
+declare interface GameTwitchStreamsList {
     /**
      * 🇧🇷 ID único do stream no Twitch.
      *
@@ -1901,7 +1901,7 @@ interface GameTwitchStreamsList {
  *
  * 🇺🇸 Type that represents a YouTube video related to a game, with detailed information such as title, description, view count, and more.
  */
-interface GameYoutubeVideosList {
+declare interface GameYoutubeVideosList {
     /**
      * 🇧🇷 ID único do vídeo no YouTube.
      *

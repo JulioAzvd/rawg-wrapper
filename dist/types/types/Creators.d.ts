@@ -3,7 +3,7 @@
  *
  * 🇺🇸 Type that represents a creator's role in the RAWG API, such as "developer", "designer", etc.
  */
-interface CreatorRoles {
+declare interface CreatorRoles {
     /**
      * 🇧🇷 ID único para a função do criador.
      *
@@ -28,7 +28,7 @@ interface CreatorRoles {
  *
  * 🇺🇸 Type that represents the API response for the list of creator roles.
  */
-interface CreatorRolesList {
+declare interface CreatorRolesList {
     /**
      * 🇧🇷 Contagem de funções de criadores retornadas.
      *
@@ -59,7 +59,7 @@ interface CreatorRolesList {
  *
  * 🇺🇸 Type that represents a game creator in the RAWG API, with basic information like name, image, and the count of games created.
  */
-interface Creator {
+declare interface Creator {
     /**
      * 🇧🇷 ID único do criador.
      *
@@ -102,7 +102,7 @@ interface Creator {
  *
  * 🇺🇸 Type that represents the list of creators, with pagination.
  */
-interface CreatorsList {
+declare interface CreatorsList {
     /**
      * 🇧🇷 Contagem total de criadores retornados.
      *
@@ -133,7 +133,7 @@ interface CreatorsList {
  *
  * 🇺🇸 Type that represents the details of a game creator in the RAWG API.
  */
-interface CreatorDetails {
+declare interface CreatorDetails {
     /**
      * 🇧🇷 ID único do criador.
      *
@@ -230,7 +230,7 @@ interface CreatorDetails {
  *
  * 🇺🇸 Type that represents the count and percentage of a platform associated with the creator.
  */
-interface Platforms {
+declare interface Platforms {
     /**
      * 🇧🇷 Contagem de jogos associados à plataforma.
      *
@@ -255,7 +255,7 @@ interface Platforms {
  *
  * 🇺🇸 Type that represents information about a platform.
  */
-interface Platform {
+declare interface Platform {
     /**
      * 🇧🇷 ID único da plataforma.
      *
@@ -280,7 +280,7 @@ interface Platform {
  *
  * 🇺🇸 Type that represents platforms associated with a creator, including total games and results.
  */
-interface CreatorPlatforms {
+declare interface CreatorPlatforms {
     /**
      * 🇧🇷 Número total de plataformas associadas ao criador.
      *
@@ -305,7 +305,7 @@ interface CreatorPlatforms {
  *
  * 🇺🇸 Type that represents a game creator in a creators list (with summarized information).
  */
-interface CreatorDetailsFromCreatorsList {
+declare interface CreatorDetailsFromCreatorsList {
     /**
      * 🇧🇷 ID único do criador.
      *
@@ -360,7 +360,7 @@ interface CreatorDetailsFromCreatorsList {
  *
  * 🇺🇸 Type that represents ratings about a creator.
  */
-interface CreatorRatings {
+declare interface CreatorRatings {
     /**
      * 🇧🇷 ID único da avaliação.
      *
@@ -391,7 +391,7 @@ interface CreatorRatings {
  *
  * 🇺🇸 Type that represents the timeline of activities of a creator.
  */
-interface CreatorTimeline {
+declare interface CreatorTimeline {
     /**
      * 🇧🇷 Ano da atividade registrada.
      *
@@ -410,7 +410,7 @@ interface CreatorTimeline {
  *
  * 🇺🇸 Type that represents a game associated with a creator.
  */
-interface CreatorGames {
+declare interface CreatorGames {
     /**
      * 🇧🇷 ID único do jogo.
      *
