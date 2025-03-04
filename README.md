@@ -20,13 +20,7 @@ Welcome to **RAWG API Wrapper**! 🚀 This is a powerful and easy-to-use TypeScr
 Install the wrapper using npm:
 
 ```sh
-npm install rawg-wrapper
-```
-
-Or using yarn:
-
-```sh
-yarn add rawg-wrapper
+npm install rawg-api-wrapper
 ```
 
 ---
