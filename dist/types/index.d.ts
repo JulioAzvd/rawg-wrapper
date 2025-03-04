@@ -1,4 +1,4 @@
-import * as RawgTypes from "../src/types/index.js";
+import * as RawgTypes from "./types";
 declare interface GameQueryParams {
     /**
      * 🇧🇷 Número da página dentro do conjunto paginado de resultados.
@@ -174,7 +174,7 @@ declare class RawgWrapper {
      * @param params Additional parameters for the request (optional).
      * @returns The data received from the API, or `undefined` if an error occurs.
      */
-    private async getDataFromEndpoint<T>(endpoint: string, params?: object): Promise<T | undefined>;
+    private getDataFromEndpoint<T>(endpoint: string, params?: object): Promise<T | undefined>;
     roles: {
         /**
          * ### 🇧🇷 Obtém as funções dos criadores de jogos.

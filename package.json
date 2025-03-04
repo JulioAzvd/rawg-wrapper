@@ -21,7 +21,8 @@
   "dependencies": {
     "axios": "^1.8.1",
     "chalk": "^5.4.1",
-    "consola": "^3.4.0"
+    "consola": "^3.4.0",
+    "rawg-wrapper": "^1.0.4"
   },
   "devDependencies": {
     "@types/eslint": "^9.6.1",
