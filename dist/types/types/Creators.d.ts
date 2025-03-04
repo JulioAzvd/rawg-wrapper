@@ -1,7 +1,5 @@
 /**
- * 🇧🇷 Tipo que representa a função de um criador na API RAWG, como "desenvolvedor", "designer", etc.
- *
- * 🇺🇸 Type that represents a creator's role in the RAWG API, such as "developer", "designer", etc.
+ * Type that represents a creator's role in the RAWG API, such as "developer", "designer", etc.
  */
 declare interface CreatorRoles {
     /**
@@ -24,9 +22,7 @@ declare interface CreatorRoles {
     slug: string;
 }
 /**
- * 🇧🇷 Tipo que representa a resposta da API para a lista de funções de criadores.
- *
- * 🇺🇸 Type that represents the API response for the list of creator roles.
+ * Type that represents the API response for the list of creator roles.
  */
 declare interface CreatorRolesList {
     /**
@@ -55,9 +51,7 @@ declare interface CreatorRolesList {
     results: CreatorRoles[];
 }
 /**
- * 🇧🇷 Tipo que representa um criador de jogos na API RAWG, com informações básicas como nome, imagem e contagem de jogos criados.
- *
- * 🇺🇸 Type that represents a game creator in the RAWG API, with basic information like name, image, and the count of games created.
+ * Type that represents a game creator in the RAWG API, with basic information like name, image, and the count of games created.
  */
 declare interface Creator {
     /**
@@ -98,9 +92,7 @@ declare interface Creator {
     game_count: number;
 }
 /**
- * 🇧🇷 Tipo que representa a lista de criadores, com paginação.
- *
- * 🇺🇸 Type that represents the list of creators, with pagination.
+ * Type that represents the list of creators, with pagination.
  */
 declare interface CreatorsList {
     /**
@@ -129,9 +121,7 @@ declare interface CreatorsList {
     results: CreatorDetailsFromCreatorsList[];
 }
 /**
- * 🇧🇷 Tipo que representa os detalhes de um criador de jogos na API RAWG.
- *
- * 🇺🇸 Type that represents the details of a game creator in the RAWG API.
+ * Type that represents the details of a game creator in the RAWG API.
  */
 declare interface CreatorDetails {
     /**
@@ -226,9 +216,7 @@ declare interface CreatorDetails {
     timeline: CreatorTimeline[];
 }
 /**
- * 🇧🇷 Tipo que representa a contagem e a porcentagem de uma plataforma associada ao criador.
- *
- * 🇺🇸 Type that represents the count and percentage of a platform associated with the creator.
+ * Type that represents the count and percentage of a platform associated with the creator.
  */
 declare interface Platforms {
     /**
@@ -251,9 +239,7 @@ declare interface Platforms {
     platform: Platform;
 }
 /**
- * 🇧🇷 Tipo que representa as informações de uma plataforma.
- *
- * 🇺🇸 Type that represents information about a platform.
+ * Type that represents information about a platform.
  */
 declare interface Platform {
     /**
@@ -276,9 +262,7 @@ declare interface Platform {
     slug: string;
 }
 /**
- * 🇧🇷 Tipo que representa as plataformas associadas a um criador, incluindo total de jogos e resultados.
- *
- * 🇺🇸 Type that represents platforms associated with a creator, including total games and results.
+ * Type that represents platforms associated with a creator, including total games and results.
  */
 declare interface CreatorPlatforms {
     /**
@@ -301,9 +285,7 @@ declare interface CreatorPlatforms {
     count: number;
 }
 /**
- * 🇧🇷 Tipo que representa um criador de jogos em uma lista de criadores (com informações resumidas).
- *
- * 🇺🇸 Type that represents a game creator in a creators list (with summarized information).
+ * Type that represents a game creator in a creators list (with summarized information).
  */
 declare interface CreatorDetailsFromCreatorsList {
     /**
@@ -356,9 +338,7 @@ declare interface CreatorDetailsFromCreatorsList {
     games: CreatorGames[];
 }
 /**
- * 🇧🇷 Tipo que representa as avaliações feitas sobre um criador.
- *
- * 🇺🇸 Type that represents ratings about a creator.
+ * Type that represents ratings about a creator.
  */
 declare interface CreatorRatings {
     /**
@@ -387,52 +367,36 @@ declare interface CreatorRatings {
     percent: number;
 }
 /**
- * 🇧🇷 Tipo que representa a linha do tempo de atividades de um criador.
- *
- * 🇺🇸 Type that represents the timeline of activities of a creator.
+ * Type that represents the timeline of activities of a creator.
  */
 declare interface CreatorTimeline {
     /**
-     * 🇧🇷 Ano da atividade registrada.
-     *
-     * 🇺🇸 Year of the recorded activity.
+     * Year of the recorded activity.
      */
     year: number;
     /**
-     * 🇧🇷 Quantidade de atividades registradas nesse ano.
-     *
-     * 🇺🇸 Number of activities recorded in that year.
+     * Number of activities recorded in that year.
      */
     count: number;
 }
 /**
- * 🇧🇷 Tipo que representa um jogo associado a um criador.
- *
- * 🇺🇸 Type that represents a game associated with a creator.
+ * Type that represents a game associated with a creator.
  */
 declare interface CreatorGames {
     /**
-     * 🇧🇷 ID único do jogo.
-     *
-     * 🇺🇸 Unique ID of the game.
+     * Unique ID of the game.
      */
     id: number;
     /**
-     * 🇧🇷 Slug (identificador único em URL) do jogo.
-     *
-     * 🇺🇸 Slug (unique URL identifier) of the game.
+     * Slug (unique URL identifier) of the game.
      */
     slug: string;
     /**
-     * 🇧🇷 Nome do jogo.
-     *
-     * 🇺🇸 Name of the game.
+     * Name of the game.
      */
     name: string;
     /**
-     * 🇧🇷 Quantidade de vezes que o jogo foi adicionado à base de dados.
-     *
-     * 🇺🇸 Number of times the game has been added to the database.
+     * Number of times the game has been added to the database.
      */
     added: number;
 }

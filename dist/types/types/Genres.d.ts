@@ -1,148 +1,100 @@
 /**
- * 🇧🇷 Representa um jogo pertencente a um determinado gênero.
- *
- * 🇺🇸 Represents a game belonging to a specific genre.
+ * Represents a game belonging to a specific genre.
  */
 declare interface GamesOnThisGenre {
     /**
-     * 🇧🇷 ID único do jogo.
-     *
-     * 🇺🇸 Unique game ID.
+     * Unique game ID.
      */
     id: number;
     /**
-     * 🇧🇷 Slug identificador do jogo (usado em URLs e buscas).
-     *
-     * 🇺🇸 Unique game slug (used in URLs and searches).
+     * Unique game slug (used in URLs and searches).
      */
     slug: string;
     /**
-     * 🇧🇷 Nome do jogo.
-     *
-     * 🇺🇸 Game name.
+     * Game name.
      */
     name: string;
     /**
-     * 🇧🇷 Número de usuários que adicionaram este jogo à coleção.
-     *
-     * 🇺🇸 Number of users who added this game to their collection.
+     * Number of users who added this game to their collection.
      */
     added: number;
 }
 /**
- * 🇧🇷 Representa um gênero de jogos.
- *
- * 🇺🇸 Represents a game genre.
+ * Represents a game genre.
  */
 declare interface GenresArray {
     /**
-     * 🇧🇷 ID único do gênero.
-     *
-     * 🇺🇸 Unique genre ID.
+     * Unique genre ID.
      */
     id: number;
     /**
-     * 🇧🇷 Nome do gênero.
-     *
-     * 🇺🇸 Genre name.
+     * Genre name.
      */
     name: string;
     /**
-     * 🇧🇷 Slug identificador do gênero (usado em URLs e buscas).
-     *
-     * 🇺🇸 Unique genre slug (used in URLs and searches).
+     * Unique genre slug (used in URLs and searches).
      */
     slug: string;
     /**
-     * 🇧🇷 Quantidade de jogos associados a este gênero.
-     *
-     * 🇺🇸 Number of games associated with this genre.
+     * Number of games associated with this genre.
      */
     games_count: number;
     /**
-     * 🇧🇷 URL da imagem de fundo representativa do gênero (caso disponível).
-     *
-     * 🇺🇸 Background image URL representing the genre (if available).
+     * Background image URL representing the genre (if available).
      */
     image_background: string | null;
     /**
-     * 🇧🇷 Lista de jogos populares pertencentes a este gênero.
-     *
-     * 🇺🇸 List of popular games belonging to this genre.
+     * List of popular games belonging to this genre.
      */
     games: GamesOnThisGenre[];
 }
 /**
- * 🇧🇷 Representa a resposta da API ao buscar uma lista de gêneros.
- *
- * 🇺🇸 Represents the API response when retrieving a list of genres.
+ * Represents the API response when retrieving a list of genres.
  */
 declare interface GenresList {
     /**
-     * 🇧🇷 Número total de gêneros disponíveis.
-     *
-     * 🇺🇸 Total number of available genres.
+     * Total number of available genres.
      */
     count: number;
     /**
-     * 🇧🇷 URL para a próxima página de resultados (caso haja paginação).
-     *
-     * 🇺🇸 URL for the next page of results (if pagination exists).
+     * URL for the next page of results (if pagination exists).
      */
     next: string | null;
     /**
-     * 🇧🇷 URL para a página anterior de resultados (caso haja paginação).
-     *
-     * 🇺🇸 URL for the previous page of results (if pagination exists).
+     * URL for the previous page of results (if pagination exists).
      */
     previous: string | null;
     /**
-     * 🇧🇷 Lista dos gêneros retornados na requisição.
-     *
-     * 🇺🇸 List of genres returned in the request.
+     * List of genres returned in the request.
      */
     results: GenresArray[];
 }
 /**
- * 🇧🇷 Representa os detalhes de um gênero específico.
- *
- * 🇺🇸 Represents the details of a specific genre.
+ * Represents the details of a specific genre.
  */
 declare interface GenreDetailsList {
     /**
-     * 🇧🇷 ID único do gênero.
-     *
-     * 🇺🇸 Unique genre ID.
+     * Unique genre ID.
      */
     id: number;
     /**
-     * 🇧🇷 Nome do gênero.
-     *
-     * 🇺🇸 Genre name.
+     * Genre name.
      */
     name: string;
     /**
-     * 🇧🇷 Slug identificador do gênero (usado em URLs e buscas).
-     *
-     * 🇺🇸 Unique genre slug (used in URLs and searches).
+     * Unique genre slug (used in URLs and searches).
      */
     slug: string;
     /**
-     * 🇧🇷 Quantidade de jogos associados a este gênero.
-     *
-     * 🇺🇸 Number of games associated with this genre.
+     * Number of games associated with this genre.
      */
     games_count: number;
     /**
-     * 🇧🇷 URL da imagem de fundo representativa do gênero.
-     *
-     * 🇺🇸 Background image URL representing the genre.
+     * Background image URL representing the genre.
      */
     image_background: string;
     /**
-     * 🇧🇷 Descrição detalhada do gênero.
-     *
-     * 🇺🇸 Detailed description of the genre.
+     * Detailed description of the genre.
      */
     description: string;
 }
