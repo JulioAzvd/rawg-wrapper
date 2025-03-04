@@ -1,0 +1,35 @@
+{
+  "name": "rawg-api-wrapper",
+  "version": "1.0.0",
+  "description": "A simple wrapper for the RAWG API",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "check": "tsc --noEmit && echo ✔ Ok",
+    "build": "tsc",
+    "dev": "tsx --env-file .env ./src/tests/test.ts"
+  },
+  "keywords": [
+    "rawg",
+    "api",
+    "wrapper",
+    "typescript",
+    "npm"
+  ],
+  "author": "Júlio 'Lohgann' Azevedo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "chalk": "^5.4.1",
+    "consola": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.13.9",
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
+    "@typescript-eslint/parser": "^8.26.0",
+    "eslint": "^9.21.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
